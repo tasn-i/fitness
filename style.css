@@ -1,0 +1,867 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.dancing-script-uniquifier {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+:root{
+    --primary-color: #E6533C;
+    --secondsry-color: #FFFFFF;
+    --text-h-color: rgba(255, 255, 255, 0.9);
+    --text-p-color: rgba(237, 236, 236, 0.5);
+    --max-width: 90%;
+
+}
+body{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    
+}
+.header-main{
+    background: linear-gradient(160deg, #111 0%, rgba(119, 119, 119, 0) 100%);
+}
+/* navber start here*/
+.header{
+    padding-top: 1rem;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: var(--max-width);
+    height: auto;
+    margin: 0 auto;
+    /*background: linear-gradient(160deg, #111 0%, rgba(119, 119, 119, 0) 100%);*/
+    
+    
+}
+.navber h3{
+    font-family: Inter;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: var(--primary-color);
+}
+.bar{
+    visibility: hidden;
+    color: var(--text-h-color);
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    margin: 15px;
+}
+nav ul li a{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: var(--text-h-color);
+    cursor: pointer;
+}
+nav ul li a button{
+    /*font-family: Inter;*/
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--text-h-color);
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: none;
+}
+/* navber ends here*/
+
+/* hero banner starts here*/
+.banner{
+    /*background: linear-gradient(160deg, #111 0%, rgba(119, 119, 119, 0) 100%);*/
+    width: var(--max-width);
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-hero{
+    color: var(--secondsry-color);
+}
+.banner-hero h1{
+    font-size: 80px;
+    font-weight: 900px;
+    line-height: 90px;
+    text-align: left;
+}
+.banner-hero span{
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 90px;
+    text-align: left;
+
+}
+.banner-hero p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(231, 230, 230, 0.5);
+    margin-bottom: 20px;
+}
+.btn-1{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--secondsry-color);
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-2{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--secondsry-color);
+    background-color: black;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid rgba(253, 253, 253, 0.5);
+    cursor: pointer;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner-img img{
+    margin: 0px 100px;
+    /*width: 400px;
+    height: auto;*/
+}
+.banner-box{
+    color: var(--secondsry-color);
+    font-family: Inter;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.box{
+    border: none;
+    padding: 15px 8px;
+    border-radius: 8px;
+    /*width: 100px;*/
+    background-color: rgba(70, 70, 70, 0.5);
+    /*margin-top: -150px;*/
+    /*margin-left: 10px;*/
+    margin-top: -30%;
+}
+.box h1{
+    font-size: 38px;
+    font-weight: 900px;
+    line-height: 38px;
+    letter-spacing: 0.8px;
+    text-align: left;
+}
+.box p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: var(--text-p-color);
+}
+.box-1{
+    width: 200px;
+    height: auto;
+    /*margin-bottom: -400px;
+    margin-left: -600px;*/
+    margin-bottom: -100%;
+    margin-left: -150%;
+    padding: 8px;
+
+}
+.box-2{
+    background-color: rgba(70, 70, 70, 0.5);
+    border-radius: 8px;
+    /*padding: 5px;*/
+    /*width: 100px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+.circle{
+    color: var(--primary-color);
+    padding-right: 20px;
+    font-size: 30px;
+}
+.text h1{
+    font-size: 28px;
+    font-weight: 900px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: var(--text-h-color);
+}
+.text p{
+    font-size: 15px;
+    font-weight: 400px;
+    list-style: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  
+}
+/* hero banner ends here*/
+
+/*My habits starts here*/
+.habits{
+    width: var(--max-width);
+    margin: 0 auto;
+    padding-bottom: 50px;
+    
+}
+.parent{
+   margin-top: 2rem;
+}
+.child{
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+
+}
+.child h1{
+    color: var(--text-h-color);
+    font-weight: 900px;
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 5px;
+}
+.child p{
+    color: var(--text-p-color);
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+.little-child{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2px;
+}
+.child-img{
+    text-align: center;
+    margin: 5px;
+}
+.child-img img{
+    border-radius: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.child-img h3{
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 21px;
+    color: var(--text-h-color); 
+    padding: 5px;  
+}
+.child-img p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: var(--text-p-color);
+}
+/*My habits ends here*/
+
+/*run starts here*/
+.run-parent{
+    width: var(--max-width);
+    background-color: rgba(34, 34, 34, 1);
+    margin: 0 auto;
+    padding: 10px;
+}
+.run-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.run-child img{
+    width: 46%;
+    height: auto;
+    object-fit: none;
+    object-position: 70% 30%; 
+    margin: 20px 12px;
+    border: none;
+    border-radius: 20px;
+}
+.run{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    padding: 22px 15px;
+    /* background-color: blue; */
+}
+.run h1{
+    color: var(--text-h-color);
+    font-size: 50px;
+    font-weight: 900px;
+    line-height: 55px;
+    text-align: left;
+    padding-right: 60px;
+}
+.run p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 20px;
+    letter-spacing: 0.4;
+    text-align: left;
+    padding: 18px 0px;
+    color: var(--text-p-color);
+    
+}
+.btn{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--secondsry-color);
+    background-color: var(--primary-color);
+    padding: 15px 80px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+/*run ends here*/
+
+
+/*  Bmi section start here  */
+/*  Bmi section start here  */
+/*  Bmi section start here  */
+
+.bmi{
+    max-width: 80%;
+    margin: 5rem auto;
+     
+ }
+.bmi>h1{
+padding-left: 12rem;
+color: #fdf5f5;
+font-size: 3.8rem;
+font-weight: 800;
+padding-bottom: 1rem;
+}
+.bmi>p{
+    padding-left: 12rem;
+    font-size: 1rem;
+    color: #8a8989;
+    max-width: 55%;
+}
+
+.chart{
+    background-color: #222222;
+    color: #fdf5f5;
+    height: auto;
+}
+.part{
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.table{
+    padding: 4rem 0;
+} 
+
+.table>table{
+    border-collapse: collapse;
+    text-align: left;
+}
+.table>table>caption{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+.table th,td{
+    border: solid 1px #535252;
+    padding: 1rem 2rem;
+    
+}
+.table td{
+    font-weight: 300;
+    color: #b1afaf;
+    font-size: 1rem;
+}
+.table th{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-weight: 700;
+}
+ 
+.calculator{
+    padding-top: 3rem;
+    padding-left: 5rem;
+     
+} 
+.calculator>h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.calculator>p{
+    font-size: 1rem;
+    max-width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #8b8b8b;
+    line-height: 1.5rem;
+
+}
+
+input {
+    max-width: 100%;
+    padding: 1rem 4rem;
+    border-radius: .8rem;
+   margin: .5rem auto;
+   background-color: #4b4a4a50;
+   color: rgb(255, 255, 255);
+   font-weight: 400;
+   font-size: 1.1rem;
+   border: none;
+   outline: none;
+text-align: left;
+}
+select{
+padding: .9rem 6.8rem;
+border-radius: .6rem;
+background-color: #4b4a4a50;
+color: rgba(170, 165, 165, 0.466);
+font-weight:normal;
+font-size: 1.2rem;
+border: none;
+outline: none;
+}
+.fact{
+    padding: .5rem 0;
+
+} 
+.fact>select{
+   padding: 1rem 14.8rem;
+}
+
+option{
+    background-color: rgb(0, 0, 0);
+    color: rgb(92, 80, 67);
+}
+ 
+ .submit>input{
+    background-color: #E6533C;
+    padding: 1.3rem 5.5rem;
+    border-radius: 100px;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    /* cursor: pointer; */
+ }
+
+ /* Bmi section end here */
+
+/* footer section starts here */
+
+footer{
+    background-color: #222222;
+}
+.parent{
+    max-width: 75%;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.son-1{
+    max-width: 100%;
+    margin: 4rem 0;
+
+}
+.son-1>h1{
+    font-size: 5rem;
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.son-1>p{
+    
+padding-top: 2rem;
+font-size: 1.2rem;
+color: #818181;
+line-height: 1.6rem;
+
+}
+
+.son-2  , .son-3{
+    text-align: left;
+    color: #fdf5f5;
+    margin: 3rem;
+    
+}
+.son-2>h2  , .son-3>h2{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+
+.son-2>ul>li , .son-3>ul>li {
+    list-style: none;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #a8a8a8b0;
+    /* cursor: pointer; */
+}
+
+hr{
+    max-width: 708%;
+    margin: auto;
+    border-bottom: 0.1px solid rgb(7, 7, 7);
+}
+
+.reserved{
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.reserved>p{
+    font-size: 1.4rem;
+    word-spacing: 5px;
+    font-weight: 200;
+    color: #9b9b9b;
+    line-height: 2rem;
+}
+ .reserved>p>span{
+    color:rgb(241, 213, 213);
+    cursor: copy;
+    font-family: "inter";
+    font-size: 2rem;
+    /* text-shadow: 1px 1px 2px rgb(141, 132, 140); */
+ }
+
+/* footer section end here  */
+
+
+/*responsive starts here*/
+
+@media screen and (max-width: 992px){
+    .navber{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .banner{
+        display: block;
+     }
+     .banner-hero{
+        margin: 20px;
+        width: 500px;
+     }
+     .banner-hero p{
+        font-size: 15px;
+     }
+     .box{
+        margin-top: -90%;
+        margin-left: 10%;
+     }
+     .box-1{
+        margin-bottom: -60%;
+        margin-left: -100%;
+     }
+    .little-child{
+        grid-template-columns: auto auto;
+    }
+    .child-img p{
+        padding: 0 70px;
+    }
+    .run h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .run p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-right: 80px;
+        padding-right: 40px;
+    }
+    .run-child img{
+        width: 30%;
+        height: 450px;
+        object-fit: none;
+        object-position: 70% 30%; 
+        border: none;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .navber{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+ 
+     }
+     .bar{
+         visibility: visible;
+        
+     }
+     nav ul{
+         visibility: hidden;
+     }
+     .banner{
+        display: block;
+     }
+     .banner-hero h1{
+        font-size: 40px;
+        line-height: 50px;
+        padding: 40px 0px;
+        margin-right: 12rem;
+
+     }
+     .banner-hero span{
+        font-size: 45px;
+        line-height: 40px;
+     }
+     .banner-hero p{
+        font-size: 16px;
+        line-height: 25px;
+        margin-right: 48%;
+        
+     }
+     .btn-1, .btn-2{
+        background: var;
+        padding: 13px 17px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.7px;
+        color: #fff;
+        transition: ease-in .2s;
+    }
+     /* }
+     .btn-2{
+        background: transparent;
+     } */
+
+     .box{
+        margin-top: -90%;
+        /*margin-left: 10%;*/  
+    }
+    .box-1{
+        margin-bottom: -10%;
+        margin-left: -100%;
+    }
+    .little-child{
+        grid-template-columns: auto;
+    }
+    .child{
+        width: 100%;
+    }
+    .child p{
+        padding: 0 40px;
+    }
+    .child-img{
+        padding: 0 70px;
+    }
+    .run-parent{
+        padding: 60px;
+    }
+    .run-child{
+        display: block;
+    }
+    .run{
+        width: 100%;
+        height: auto;
+        /*padding-right: 60px;*/
+        /*padding: 22px 15px;*/
+        padding: 0px;
+    }
+    .run h1{
+        padding-right: 80px;
+    }
+    .btn{
+        padding: 12px 100px;
+    }
+    .run-child img{
+        width: 90%;
+        object-position: 70% 35%;
+    }
+    .bmi{
+        max-width: 90%;
+     }
+    
+     .bmi>h1{
+        padding-left:0;
+        font-size: 2.8rem;
+        font-weight: 900;
+        padding-bottom: 1rem;
+        }
+    
+        .bmi>p{
+            padding-left:0;
+            font-size: 1.1rem;
+            line-height: 1.8rem ;
+            color: #8a8989;
+            max-width: 90%;
+        }
+    
+        .part{
+            max-width: 90%;
+            flex-direction: column;
+            
+        }
+        .table>table>caption{
+            font-size: 1.5rem;
+            font-weight: 700;
+            width: 100%;
+            padding-bottom: 2rem;
+           margin-left: -4.4rem;
+        }
+        .calculator{
+            padding-top:0;
+            padding-left: 0;
+             
+        } 
+        
+        .calculator>h2{
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+    
+        .calculator>p{
+            font-size: 1.1rem;
+            line-height: 1.9rem;
+        }
+    
+        input {
+            max-width: 11.5rem;
+            padding: 1.4rem 0;
+           margin: .5rem auto;
+           margin-right: .7rem;
+           background-color: #504f4f50;
+           color: rgb(255, 255, 255);
+           font-weight: 400;
+            line-height: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+        
+        }
+    
+        select{
+            max-width: 11.5rem;
+            padding: 1.3rem 12%;
+            font-size: 1.4rem;
+    
+            }
+    
+            .fact>select{
+                max-width:24rem;
+                padding: 1.5rem 14.5%;
+     
+             }
+    
+             .option>input{
+                max-width: 20rem;
+                padding: 1.8rem 25%;
+                margin-top: 1rem;
+                font-size: 1.5rem;
+             }
+    
+      .parent{
+        max-width: 90%;
+        flex-direction: column;
+    
+    }
+    
+    .son-1>h1{
+        font-size: 5rem;
+     
+    }
+    .son-1>p{
+        font-size: 1.2rem;
+        color: #9e9d9d;
+        line-height: 1.9rem;
+    }
+        .son-2  , .son-3{
+            margin: 0;
+        }
+    
+        .son-2>h2 , .son-3>h2{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    
+        .son-2>ul>li , .son-3>ul>li {
+            list-style: none;
+            line-height: 2.5rem;
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: #d8d5d5af;
+            cursor: pointer;
+            padding-bottom: .8rem;
+        }
+    
+    hr{
+        margin-top: 2rem;
+        max-width: 90%;
+    }
+    
+    .reserved>p{
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 300;
+        color: #c0bec0;
+        line-height: 2rem;
+    }
+}
+
+/* responsive ends here */
