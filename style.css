@@ -33,6 +33,7 @@ body{
 }
 .header-main{
     background: linear-gradient(160deg, #111 0%, rgba(119, 119, 119, 0) 100%);
+    padding-left: 5%;
 }
 /* navber start here*/
 .header{
@@ -107,10 +108,11 @@ nav ul li a button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    /* padding-left: 5%; */
 }
 .banner-hero{
     color: var(--secondsry-color);
+    width: 30%;
 }
 .banner-hero h1{
     font-size: 80px;
@@ -251,7 +253,8 @@ nav ul li a button{
 .habits{
     width: var(--max-width);
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding: 50px 0px;
+    
     
 }
 .parent{
@@ -269,9 +272,9 @@ nav ul li a button{
 .child h1{
     color: var(--text-h-color);
     font-weight: 900px;
-    font-size: 45px;
+    font-size: 60px;
     line-height: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 .child p{
     color: var(--text-p-color);
@@ -315,12 +318,15 @@ nav ul li a button{
     width: var(--max-width);
     background-color: rgba(34, 34, 34, 1);
     margin: 0 auto;
+
     padding: 10px;
+    
 }
 .run-child{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 5%;
     
 }
 .run-child img{
@@ -825,7 +831,7 @@ hr{
      }
      .btn-1, .btn-2{
         background: var;
-        padding: 13px 17px;
+        padding: 3% 10%;
         border-radius: 50px;
         font-weight: 600;
         font-size: 11px;
