@@ -373,6 +373,152 @@ nav ul li a button{
 }
 /*run ends here*/
 
+/*membership starts here*/
+.membership{
+    width: var(--max-width);
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.membership h1{
+    color: var(--text-h-color);
+    font-size: 50px;
+    font-weight: 900px;
+    line-height: 55px;
+    text-align: center;
+}
+.membership p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 20px;
+    letter-spacing: 0.4;
+    text-align: center;
+    padding: 18px 0px;
+    color: var(--text-p-color);
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px 10px 0px 0px;
+}
+.membership-card{
+    border: none;
+    border-radius: 20px;
+    /*padding: 20px;*/
+    margin: 15px;
+    background-color: rgba(34, 34, 34, 1);
+    opacity: 30px;
+
+}
+.card-body{
+    padding: 15px;
+}
+.card-body h3{
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 21px;
+    color: var(--text-h-color);
+    text-align: left; 
+}
+.card-body p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: var(--text-p-color);
+    padding: 20px 0px;
+    text-align: left;
+}
+.card-body button{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--secondsry-color);
+    background-color: var(--primary-color);
+    padding: 15px 80px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+/*membership ends here*/
+
+/*Meet our team starts here*/
+.meet{
+   width: var(--max-width); 
+   height: auto;
+   margin: 0 auto;
+   padding: 30px 0px;
+}
+.meet-text h1{
+    font-size: 50px;
+    font-weight: 900px;
+    line-height: 55px;
+    text-align: center;
+    color: var(--text-h-color);
+}
+.meet-text p{
+    font-size: 15px;
+    padding: 35px 0px;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 400px;
+    line-height: 22px;
+    letter-spacing: 0.4;
+    text-align: center;
+    color: var(--text-p-color);
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 70% 10%;
+    border: none;
+    border-radius: 18px;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(34, 34, 34, 1);
+}
+.content-img{
+    position: relative;
+    padding: 20px;
+}
+.content-text{
+    position: absolute;
+    bottom: 0px;
+    padding: 30px;
+}
+.content-text h3{
+    font-size: 22px;
+    font-weight: 900px;
+    line-height: 22px;
+    text-align: left;
+    color: var(--secondsry-color);
+}
+.content-text p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 18px;
+    text-align: left;
+    color: var(--text-p-color);
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
+/*Meet our team ends here*/
 
 /*  Bmi section start here  */
 /*  Bmi section start here  */
@@ -734,6 +880,43 @@ hr{
     .run-child img{
         width: 90%;
         object-position: 70% 35%;
+    }
+
+    .meet-text p{
+        width: 75%;
+    }
+    .content img{
+        width: 260px;
+        height: 350px;
+    }
+    .visible{
+        visibility: hidden;
+    }
+    .hidden{
+        visibility: visible;
+    }
+    .membership h1{
+        font-size: 40px;
+    }
+    .card{
+        display: block;
+    } 
+    .meet-text p{
+        width: 65%;
+    }
+    .content{
+        grid-template-columns: auto;
+        
+        justify-content: center;
+        border: none;
+        border-radius: 30px;
+        padding: 30px 0px;
+    }
+    .content img{
+        width: 400px;
+        height: auto;
+        object-fit: cover;
+        object-position: 70% 10%;
     }
     .bmi{
         max-width: 90%;
